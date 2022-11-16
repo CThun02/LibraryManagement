@@ -38,7 +38,7 @@ public class FrmDSPN extends javax.swing.JFrame {
         jLabel1 = new javax.swing.JLabel();
         jScrollPane1 = new javax.swing.JScrollPane();
         tblDS = new javax.swing.JTable();
-        jButton1 = new javax.swing.JButton();
+        btnXemChiTiet = new javax.swing.JButton();
         jComboBox1 = new javax.swing.JComboBox<>();
         jTextField1 = new javax.swing.JTextField();
         jButton2 = new javax.swing.JButton();
@@ -81,11 +81,22 @@ public class FrmDSPN extends javax.swing.JFrame {
         tblDS.setSelectionBackground(new java.awt.Color(125, 214, 150));
         jScrollPane1.setViewportView(tblDS);
 
-        jButton1.setText("Xem chi tiết");
+        btnXemChiTiet.setBackground(new java.awt.Color(125, 200, 150));
+        btnXemChiTiet.setText("Xem chi tiết");
+        btnXemChiTiet.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btnXemChiTiet.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnXemChiTietActionPerformed(evt);
+            }
+        });
 
+        jComboBox1.setBackground(new java.awt.Color(125, 200, 150));
         jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+        jComboBox1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
 
+        jButton2.setBackground(new java.awt.Color(125, 200, 150));
         jButton2.setText("Chỉnh sửa");
+        jButton2.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
 
         btnClose.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnClose.setPreferredSize(new java.awt.Dimension(20, 20));
@@ -97,6 +108,7 @@ public class FrmDSPN extends javax.swing.JFrame {
 
         jLabel3.setText("Sắp xếp");
 
+        btnSearch.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnSearch.setPreferredSize(new java.awt.Dimension(20, 20));
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
@@ -125,7 +137,7 @@ public class FrmDSPN extends javax.swing.JFrame {
                             .addGroup(jPanel1Layout.createSequentialGroup()
                                 .addComponent(jButton2)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 103, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                .addComponent(btnXemChiTiet, javax.swing.GroupLayout.PREFERRED_SIZE, 103, javax.swing.GroupLayout.PREFERRED_SIZE)))
                         .addContainerGap())
                     .addComponent(btnClose, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
         );
@@ -142,7 +154,7 @@ public class FrmDSPN extends javax.swing.JFrame {
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 25, Short.MAX_VALUE)
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(jButton2)
-                            .addComponent(jButton1))
+                            .addComponent(btnXemChiTiet))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)))
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
@@ -183,6 +195,14 @@ public class FrmDSPN extends javax.swing.JFrame {
         this.dispose();
     }//GEN-LAST:event_btnCloseMouseClicked
 
+    private void btnXemChiTietActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnXemChiTietActionPerformed
+        // TODO add your handling code here:
+        FrmPhieuNhap phieuNhap = new FrmPhieuNhap();
+        phieuNhap.checkSach(false);
+        phieuNhap.xemChiTiet();
+        phieuNhap.setVisible(true);
+    }//GEN-LAST:event_btnXemChiTietActionPerformed
+
     private void seticon(){
         URL urldong = getClass().getResource("/Images/cross-small.png");
         URL urltim = getClass().getResource("/Images/search.png");
@@ -197,7 +217,7 @@ public class FrmDSPN extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel btnClose;
     private javax.swing.JLabel btnSearch;
-    private javax.swing.JButton jButton1;
+    private javax.swing.JButton btnXemChiTiet;
     private javax.swing.JButton jButton2;
     private javax.swing.JComboBox<String> jComboBox1;
     private javax.swing.JLabel jLabel1;

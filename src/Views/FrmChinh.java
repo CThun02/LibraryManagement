@@ -364,11 +364,11 @@ public class FrmChinh extends javax.swing.JFrame {
         jPanel2.add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 20, -1, -1));
 
         jLabel11.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
-        jLabel11.setText("Happy library FPT polytechnic");
+        jLabel11.setText("Happy library from FPT polytechnic");
         jPanel2.add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 70, -1, -1));
 
         iconmatCuoi.setPreferredSize(new java.awt.Dimension(40, 40));
-        jPanel2.add(iconmatCuoi, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 40, 60, 60));
+        jPanel2.add(iconmatCuoi, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 40, 60, 60));
 
         btnDangXuat.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnDangXuat.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -432,11 +432,13 @@ public class FrmChinh extends javax.swing.JFrame {
 
     private void btnThongkeMousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnThongkeMousePressed
         // TODO add your handling code here:
+        this.setFrmChinh(new FrmQuanLyThongKe());
         this.setcolor.changeColorBtn("Thống kê", getBtn());
     }//GEN-LAST:event_btnThongkeMousePressed
 
     private void btnViPhamMousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnViPhamMousePressed
         // TODO add your handling code here:
+        this.setFrmChinh(new FrmQuanLyViPham());
         this.setcolor.changeColorBtn("Vi phạm", getBtn());
     }//GEN-LAST:event_btnViPhamMousePressed
 

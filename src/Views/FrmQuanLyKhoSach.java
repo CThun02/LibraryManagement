@@ -284,6 +284,7 @@ public class FrmQuanLyKhoSach extends javax.swing.JPanel {
 
         lblXCT1.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         lblXCT1.setText("Xem phiếu nhập ");
+        lblXCT1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnXemPhieuNhap.add(lblXCT1);
 
         jPanel4.add(btnXemPhieuNhap, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 40, 120, 30));

@@ -37,8 +37,6 @@ public class FrmTrangChu extends javax.swing.JPanel {
         cbbViPham = new javax.swing.JComboBox<>();
         jLabel7 = new javax.swing.JLabel();
         jLabel8 = new javax.swing.JLabel();
-        btnBCVP = new javax.swing.JPanel();
-        jLabel9 = new javax.swing.JLabel();
         jPanel4 = new javax.swing.JPanel();
         jLabel12 = new javax.swing.JLabel();
         cbbMuonSach = new javax.swing.JComboBox<>();
@@ -46,8 +44,6 @@ public class FrmTrangChu extends javax.swing.JPanel {
         jLabel14 = new javax.swing.JLabel();
         jLabel15 = new javax.swing.JLabel();
         jLabel16 = new javax.swing.JLabel();
-        btnSLMS = new javax.swing.JPanel();
-        jLabel17 = new javax.swing.JLabel();
         jPanel5 = new javax.swing.JPanel();
         jLabel18 = new javax.swing.JLabel();
         cbbTraSach = new javax.swing.JComboBox<>();
@@ -55,8 +51,6 @@ public class FrmTrangChu extends javax.swing.JPanel {
         jLabel20 = new javax.swing.JLabel();
         jLabel21 = new javax.swing.JLabel();
         jLabel22 = new javax.swing.JLabel();
-        btnDTS = new javax.swing.JPanel();
-        jLabel23 = new javax.swing.JLabel();
         jPanel14 = new javax.swing.JPanel();
         jLabel24 = new javax.swing.JLabel();
         jLabel25 = new javax.swing.JLabel();
@@ -64,8 +58,6 @@ public class FrmTrangChu extends javax.swing.JPanel {
         cbbNhapSach = new javax.swing.JComboBox<>();
         jLabel27 = new javax.swing.JLabel();
         jLabel28 = new javax.swing.JLabel();
-        btnBCNS = new javax.swing.JPanel();
-        jLabel29 = new javax.swing.JLabel();
         jLabel1 = new javax.swing.JLabel();
         jPanel16 = new javax.swing.JPanel();
         jLabel30 = new javax.swing.JLabel();
@@ -74,8 +66,6 @@ public class FrmTrangChu extends javax.swing.JPanel {
         jLabel32 = new javax.swing.JLabel();
         jLabel33 = new javax.swing.JLabel();
         jLabel34 = new javax.swing.JLabel();
-        btnSLSL = new javax.swing.JPanel();
-        jLabel35 = new javax.swing.JLabel();
         jPanel18 = new javax.swing.JPanel();
         jLabel36 = new javax.swing.JLabel();
         cbbSachUaThich = new javax.swing.JComboBox<>();
@@ -83,8 +73,6 @@ public class FrmTrangChu extends javax.swing.JPanel {
         jLabel38 = new javax.swing.JLabel();
         jLabel39 = new javax.swing.JLabel();
         jLabel40 = new javax.swing.JLabel();
-        btnSUT = new javax.swing.JPanel();
-        jLabel41 = new javax.swing.JLabel();
 
         frmDiff.setBackground(new java.awt.Color(255, 255, 255));
 
@@ -118,21 +106,6 @@ public class FrmTrangChu extends javax.swing.JPanel {
         jLabel8.setText("error!");
         jPanel3.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(119, 96, -1, -1));
 
-        btnBCVP.setBackground(new java.awt.Color(255, 255, 255));
-        btnBCVP.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(102, 255, 102)));
-        btnBCVP.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        btnBCVP.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                btnBCVPMouseclicked(evt);
-            }
-        });
-
-        jLabel9.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabel9.setText("Xem chi tiết");
-        btnBCVP.add(jLabel9);
-
-        jPanel3.add(btnBCVP, new org.netbeans.lib.awtextra.AbsoluteConstraints(119, 123, 100, -1));
-
         jPanel4.setBackground(new java.awt.Color(125, 200, 150));
         jPanel4.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Sô lượng mượn sách", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Segoe UI", 1, 12))); // NOI18N
         jPanel4.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -155,21 +128,6 @@ public class FrmTrangChu extends javax.swing.JPanel {
         jLabel16.setText("error!");
         jPanel4.add(jLabel16, new org.netbeans.lib.awtextra.AbsoluteConstraints(119, 96, -1, -1));
 
-        btnSLMS.setBackground(new java.awt.Color(255, 255, 255));
-        btnSLMS.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(102, 255, 102)));
-        btnSLMS.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        btnSLMS.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                btnSLMSMouseClicked(evt);
-            }
-        });
-
-        jLabel17.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabel17.setText("Xem chi tiết");
-        btnSLMS.add(jLabel17);
-
-        jPanel4.add(btnSLMS, new org.netbeans.lib.awtextra.AbsoluteConstraints(119, 123, 100, -1));
-
         jPanel5.setBackground(new java.awt.Color(125, 200, 150));
         jPanel5.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Đã trả sách", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Segoe UI", 1, 12))); // NOI18N
         jPanel5.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -191,21 +149,6 @@ public class FrmTrangChu extends javax.swing.JPanel {
 
         jLabel22.setText("0");
         jPanel5.add(jLabel22, new org.netbeans.lib.awtextra.AbsoluteConstraints(119, 96, -1, -1));
-
-        btnDTS.setBackground(new java.awt.Color(255, 255, 255));
-        btnDTS.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(102, 255, 102)));
-        btnDTS.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        btnDTS.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                btnDTSMouseClicked(evt);
-            }
-        });
-
-        jLabel23.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabel23.setText("Xem chi tiết");
-        btnDTS.add(jLabel23);
-
-        jPanel5.add(btnDTS, new org.netbeans.lib.awtextra.AbsoluteConstraints(119, 123, 100, -1));
 
         jPanel14.setBackground(new java.awt.Color(125, 200, 150));
         jPanel14.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Báo cáo nhập sách", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Segoe UI", 1, 12))); // NOI18N
@@ -234,21 +177,6 @@ public class FrmTrangChu extends javax.swing.JPanel {
         jLabel28.setText("0");
         jPanel14.add(jLabel28, new org.netbeans.lib.awtextra.AbsoluteConstraints(119, 96, -1, -1));
 
-        btnBCNS.setBackground(new java.awt.Color(255, 255, 255));
-        btnBCNS.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(102, 255, 102)));
-        btnBCNS.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        btnBCNS.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                btnBCNSMouseClicked(evt);
-            }
-        });
-
-        jLabel29.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabel29.setText("Xem chi tiết");
-        btnBCNS.add(jLabel29);
-
-        jPanel14.add(btnBCNS, new org.netbeans.lib.awtextra.AbsoluteConstraints(119, 123, 100, -1));
-
         jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jLabel1.setText("Báo cáo kho sách");
 
@@ -274,21 +202,6 @@ public class FrmTrangChu extends javax.swing.JPanel {
         jLabel34.setText("error!");
         jPanel16.add(jLabel34, new org.netbeans.lib.awtextra.AbsoluteConstraints(119, 96, -1, -1));
 
-        btnSLSL.setBackground(new java.awt.Color(255, 255, 255));
-        btnSLSL.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(102, 255, 102)));
-        btnSLSL.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        btnSLSL.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                btnSLSLMouseClicked(evt);
-            }
-        });
-
-        jLabel35.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabel35.setText("Xem chi tiết");
-        btnSLSL.add(jLabel35);
-
-        jPanel16.add(btnSLSL, new org.netbeans.lib.awtextra.AbsoluteConstraints(119, 123, 100, -1));
-
         jPanel18.setBackground(new java.awt.Color(125, 200, 150));
         jPanel18.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Sách ưa thích", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Segoe UI", 1, 12))); // NOI18N
         jPanel18.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -310,21 +223,6 @@ public class FrmTrangChu extends javax.swing.JPanel {
 
         jLabel40.setText("0");
         jPanel18.add(jLabel40, new org.netbeans.lib.awtextra.AbsoluteConstraints(119, 96, -1, -1));
-
-        btnSUT.setBackground(new java.awt.Color(255, 255, 255));
-        btnSUT.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(102, 255, 102)));
-        btnSUT.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        btnSUT.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                btnSUTMouseClicked(evt);
-            }
-        });
-
-        jLabel41.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabel41.setText("Xem chi tiết");
-        btnSUT.add(jLabel41);
-
-        jPanel18.add(btnSUT, new org.netbeans.lib.awtextra.AbsoluteConstraints(119, 123, 100, -1));
 
         javax.swing.GroupLayout frmDiffLayout = new javax.swing.GroupLayout(frmDiff);
         frmDiff.setLayout(frmDiffLayout);
@@ -394,52 +292,16 @@ public class FrmTrangChu extends javax.swing.JPanel {
         );
     }// </editor-fold>//GEN-END:initComponents
 
-    private void btnBCVPMouseclicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnBCVPMouseclicked
-        // TODO add your handling code here:
-        JOptionPane.showMessageDialog(this, "Chưa phát triến tính năng!");
-    }//GEN-LAST:event_btnBCVPMouseclicked
-
     private void jPanel3MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jPanel3MouseReleased
         // TODO add your handling code here:
     }//GEN-LAST:event_jPanel3MouseReleased
-
-    private void btnSLMSMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnSLMSMouseClicked
-        // TODO add your handling code here:
-        JOptionPane.showMessageDialog(this, "Chưa phát triến tính năng!");
-    }//GEN-LAST:event_btnSLMSMouseClicked
-
-    private void btnDTSMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnDTSMouseClicked
-        // TODO add your handling code here:
-        JOptionPane.showMessageDialog(this, "Chưa phát triến tính năng!");
-    }//GEN-LAST:event_btnDTSMouseClicked
-
-    private void btnBCNSMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnBCNSMouseClicked
-        // TODO add your handling code here:
-        JOptionPane.showMessageDialog(this, "Chưa phát triến tính năng!");
-    }//GEN-LAST:event_btnBCNSMouseClicked
 
     private void jPanel14MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jPanel14MouseReleased
         // TODO add your handling code here:
     }//GEN-LAST:event_jPanel14MouseReleased
 
-    private void btnSLSLMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnSLSLMouseClicked
-        // TODO add your handling code here:
-        JOptionPane.showMessageDialog(this, "Chưa phát triến tính năng!");
-    }//GEN-LAST:event_btnSLSLMouseClicked
-
-    private void btnSUTMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnSUTMouseClicked
-        // TODO add your handling code here:
-        JOptionPane.showMessageDialog(this, "Chưa phát triến tính năng!");
-    }//GEN-LAST:event_btnSUTMouseClicked
-
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JPanel btnBCNS;
-    private javax.swing.JPanel btnBCVP;
-    private javax.swing.JPanel btnDTS;
-    private javax.swing.JPanel btnSLMS;
-    private javax.swing.JPanel btnSLSL;
-    private javax.swing.JPanel btnSUT;
     private javax.swing.JComboBox<String> cbbMuonSach;
     private javax.swing.JComboBox<String> cbbNhapSach;
     private javax.swing.JComboBox<String> cbbSachLoi;
@@ -453,38 +315,32 @@ public class FrmTrangChu extends javax.swing.JPanel {
     private javax.swing.JLabel jLabel14;
     private javax.swing.JLabel jLabel15;
     private javax.swing.JLabel jLabel16;
-    private javax.swing.JLabel jLabel17;
     private javax.swing.JLabel jLabel18;
     private javax.swing.JLabel jLabel19;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel20;
     private javax.swing.JLabel jLabel21;
     private javax.swing.JLabel jLabel22;
-    private javax.swing.JLabel jLabel23;
     private javax.swing.JLabel jLabel24;
     private javax.swing.JLabel jLabel25;
     private javax.swing.JLabel jLabel26;
     private javax.swing.JLabel jLabel27;
     private javax.swing.JLabel jLabel28;
-    private javax.swing.JLabel jLabel29;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel30;
     private javax.swing.JLabel jLabel31;
     private javax.swing.JLabel jLabel32;
     private javax.swing.JLabel jLabel33;
     private javax.swing.JLabel jLabel34;
-    private javax.swing.JLabel jLabel35;
     private javax.swing.JLabel jLabel36;
     private javax.swing.JLabel jLabel37;
     private javax.swing.JLabel jLabel38;
     private javax.swing.JLabel jLabel39;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel40;
-    private javax.swing.JLabel jLabel41;
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel8;
-    private javax.swing.JLabel jLabel9;
     private javax.swing.JPanel jPanel14;
     private javax.swing.JPanel jPanel16;
     private javax.swing.JPanel jPanel18;
